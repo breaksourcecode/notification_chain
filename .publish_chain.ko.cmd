@@ -1,0 +1,1 @@
+cmd_/home/kali/notification_chain/publish_chain.ko := ld -r -m elf_i386 --build-id  -T /usr/src/linux-headers-5.9.0-kali2-common/scripts/module-common.lds -o /home/kali/notification_chain/publish_chain.ko /home/kali/notification_chain/publish_chain.o /home/kali/notification_chain/publish_chain.mod.o;  true

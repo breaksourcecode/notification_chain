@@ -1,0 +1,1 @@
+cmd_/home/kali/notification_chain/Module.symvers := sed 's/ko$$/o/' /home/kali/notification_chain/modules.order | scripts/mod/modpost -m    -o /home/kali/notification_chain/Module.symvers -e -i Module.symvers   -T -
